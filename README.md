@@ -56,8 +56,8 @@ That's it. Spine runs in the background.
 
 ## Latest release
 
-- [v0.5.0](releases/v0.5.0.md)
-- Highlights: calmer default theme, richer CLI/model stats, Codex projection health, better Codex model detection, and split panes that inherit the current working directory.
+- [v0.5.2](releases/v0.5.2.md)
+- Highlights: smoother knowledge graph, quieter background work when idle (fewer fan spin-ups and less battery drain), and a snappier UI overall.
 
 ---
 
