@@ -54,6 +54,11 @@ Spine is a macOS desktop app with a built-in MCP server that gives your AI codin
 
 That's it. Spine runs in the background.
 
+## Latest release
+
+- [v0.5.0](releases/v0.5.0.md)
+- Highlights: calmer default theme, richer CLI/model stats, Codex projection health, better Codex model detection, and split panes that inherit the current working directory.
+
 ---
 
 ## Requirements
