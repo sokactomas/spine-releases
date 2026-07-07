@@ -32,11 +32,11 @@ Spine is a macOS desktop app with a built-in MCP server that gives your AI codin
 - Team context that every team member's Claude Code or Codex can access
 
 **What Spine does on top of memory:**
-- Watches live sessions and warns before your agent retries a known dead end
-- Spots task types no skill covers and offers to build missing skills automatically
+- Keeps Claude, Codex and Antigravity wired to the same MCP hub and registry
+- Routes hard advisor calls automatically by the CLI that asked — no Claude/Codex switch to manage
+- Spots uncovered task patterns passively and treats them as an auto-learn queue, not a manual inbox
 - Lets Claude ask Codex (and vice versa) — a different model answering with its own session context
 - Learns which recalled decisions you actually use and stops surfacing what you always dismiss
-- Automatically allows frequently-used read-only shell commands so you stop clicking through the same permission prompts
 
 **What it feels like:**
 - You open a new session and your agent already knows your stack, your conventions, and what was discussed last week
@@ -49,15 +49,15 @@ Spine is a macOS desktop app with a built-in MCP server that gives your AI codin
 
 1. Download the latest `.dmg` from [Releases](../../releases)
 2. Open the `.dmg` and drag Spine to Applications
-3. Launch Spine — it auto-configures itself as an MCP server for Claude Code and Codex
-4. Restart your CLI
+3. Launch Spine — it appears in the menu bar and auto-configures itself as an MCP server for Claude Code and Codex
+4. Restart your CLI so it reloads the updated context and skills
 
-That's it. Spine runs in the background.
+That's it. Spine runs passively in the background.
 
 ## Latest release
 
-- [v0.5.2](releases/v0.5.2.md)
-- Highlights: smoother knowledge graph, quieter background work when idle (fewer fan spin-ups and less battery drain), and a snappier UI overall.
+- [v0.6.1](releases/v0.6.1.md)
+- Highlights: zero-config advisor routing, passive auto-learn skill handling, safer Codex skill projection, and the refreshed spine icon across app, menu bar and About.
 
 ---
 
