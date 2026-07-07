@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="icon.png" width="128" />
+  <img src="icon-v0.6.1.png" width="128" />
 </p>
 
 # Spine
