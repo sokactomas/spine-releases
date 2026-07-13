@@ -4,7 +4,7 @@
 
 # Spine
 
-**Persistent memory and a shared brain for your AI coding CLIs.**
+**Lightweight shared memory and an MCP bridge for your AI coding CLIs.**
 
 ![macOS](https://img.shields.io/badge/macOS-13%2B-black) ![Beta](https://img.shields.io/badge/status-beta-orange) ![Free](https://img.shields.io/badge/price-free-brightgreen)
 
@@ -23,7 +23,7 @@ Claude Code, Codex, and other AI coding CLIs forget everything when you close th
 
 ## What Spine does
 
-Spine is a macOS desktop app with a built-in MCP server that gives your AI coding CLIs — Claude Code, Codex, Antigravity — a shared persistent knowledge graph. It runs in the background, learns from your sessions, and makes sure every agent remembers what matters. Automatically.
+Spine is a lightweight macOS menu-bar app with a built-in MCP server that gives Claude Code, Codex and Antigravity a shared persistent knowledge graph. It captures finished work in the background and gives each new agent session the context that matters, without replacing your terminal or becoming another workspace.
 
 **What gets remembered:**
 - Project decisions and the reasoning behind them ("we switched to Postgres because X")
@@ -33,6 +33,7 @@ Spine is a macOS desktop app with a built-in MCP server that gives your AI codin
 
 **What Spine does on top of memory:**
 - Keeps Claude, Codex and Antigravity wired to the same MCP hub and registry
+- Starts opt-in delegated work as a bounded job, with a separate status result instead of a fragile long-running request
 - Routes hard advisor calls automatically by the CLI that asked — no Claude/Codex switch to manage
 - Spots uncovered task patterns passively and treats them as an auto-learn queue, not a manual inbox
 - Lets Claude ask Codex (and vice versa) — a different model answering with its own session context
@@ -56,8 +57,8 @@ That's it. Spine runs passively in the background.
 
 ## Latest release
 
-- [v0.6.1](releases/v0.6.1.md)
-- Highlights: zero-config advisor routing, passive auto-learn skill handling, safer Codex skill projection, and the refreshed spine icon across app, menu bar and About.
+- [v0.6.3](releases/v0.6.3.md)
+- Highlights: hardened MCP delegation, clearer agent-session activity, resilient Notes, and a lighter About surface.
 
 ---
 
